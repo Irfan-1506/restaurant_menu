@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #141312;
+  --color-surface-dim: #141312;
+  --color-surface-bright: #3b3937;
+  --color-surface-container-lowest: #0f0e0d;
+  --color-surface-container-low: #1d1b1a;
+  --color-surface-container: #211f1e;
+  --color-surface-container-high: #2b2a28;
+  --color-surface-container-highest: #363433;
+  --color-on-surface: #e6e1df;
+  --color-on-surface-variant: #d4c4b0;
+  --color-inverse-surface: #e6e1df;
+  --color-inverse-on-surface: #32302f;
+  --color-outline: #9d8f7c;
+  --color-outline-variant: #504535;
+  --color-surface-tint: #fabc4d;
+  --color-primary: #ffc665;
+  --color-on-primary: #432c00;
+  --color-primary-container: #e5a93c;
+  --color-on-primary-container: #5e4000;
+  --color-secondary: #ffb4a8;
+  --color-on-secondary: #680100;
+  --color-secondary-container: #8e1309;
+  --color-on-secondary-container: #ff9a8a;
+  --color-tertiary: #f6c96c;
+  --color-on-tertiary: #402d00;
+  --color-tertiary-container: #d9ae54;
+  --color-on-tertiary-container: #5b4200;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+
+  --font-display: "Playfair Display", serif;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #141312;
+    color: #e6e1df;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Material Symbols class helper */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

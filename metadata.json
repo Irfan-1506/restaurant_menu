@@ -1,0 +1,8 @@
+{
+  "name": "Sultan's Kitchen - Royal Mughal Dining & Checkout",
+  "description": "Royal Mughal & Bangladeshi dining checkout experience with live table synchronization, smart tip calculations, localized payments, and kitchen tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
